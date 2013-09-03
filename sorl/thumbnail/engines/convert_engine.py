@@ -115,7 +115,8 @@ class Engine(EngineBase):
         else:
             # ImageMagick also corrects the orientation exif data for
             # destination
-            image['options']['auto-orient'] = None
+            #image['options']['auto-orient'] = None
+            pass
         return image
 
     def _colorspace(self, image, colorspace):
